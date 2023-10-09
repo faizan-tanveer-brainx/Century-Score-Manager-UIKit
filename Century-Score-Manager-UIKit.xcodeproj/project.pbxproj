@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		26290F102AD42578004D3B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F0F2AD42578004D3B54 /* AppDelegate.swift */; };
 		26290F122AD42578004D3B54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F112AD42578004D3B54 /* SceneDelegate.swift */; };
-		26290F142AD42578004D3B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F132AD42578004D3B54 /* ViewController.swift */; };
-		26290F172AD42578004D3B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26290F152AD42578004D3B54 /* Main.storyboard */; };
 		26290F192AD42579004D3B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26290F182AD42579004D3B54 /* Assets.xcassets */; };
-		26290F1C2AD42579004D3B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26290F1A2AD42579004D3B54 /* LaunchScreen.storyboard */; };
 		26290F272AD42579004D3B54 /* Century_Score_Manager_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F262AD42579004D3B54 /* Century_Score_Manager_UIKitTests.swift */; };
 		26290F312AD42579004D3B54 /* Century_Score_Manager_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F302AD42579004D3B54 /* Century_Score_Manager_UIKitUITests.swift */; };
 		26290F332AD42579004D3B54 /* Century_Score_Manager_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F322AD42579004D3B54 /* Century_Score_Manager_UIKitUITestsLaunchTests.swift */; };
+		26290F422AD42631004D3B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26290F412AD42631004D3B54 /* Main.storyboard */; };
+		26290F452AD42668004D3B54 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F442AD42668004D3B54 /* SplashViewController.swift */; };
+		26290F472AD42685004D3B54 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F462AD42685004D3B54 /* SplashViewModel.swift */; };
+		26290F4A2AD426BD004D3B54 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F492AD426BD004D3B54 /* OnboardingViewController.swift */; };
+		26290F4C2AD426CB004D3B54 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F4B2AD426CB004D3B54 /* OnboardingViewModel.swift */; };
+		26290F4E2AD42787004D3B54 /* OnboardingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F4D2AD42787004D3B54 /* OnboardingRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +42,19 @@
 		26290F0C2AD42578004D3B54 /* Century-Score-Manager-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Century-Score-Manager-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26290F0F2AD42578004D3B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26290F112AD42578004D3B54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26290F132AD42578004D3B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26290F162AD42578004D3B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26290F182AD42579004D3B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		26290F1B2AD42579004D3B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26290F1D2AD42579004D3B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26290F222AD42579004D3B54 /* Century-Score-Manager-UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Century-Score-Manager-UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26290F262AD42579004D3B54 /* Century_Score_Manager_UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Century_Score_Manager_UIKitTests.swift; sourceTree = "<group>"; };
 		26290F2C2AD42579004D3B54 /* Century-Score-Manager-UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Century-Score-Manager-UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26290F302AD42579004D3B54 /* Century_Score_Manager_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Century_Score_Manager_UIKitUITests.swift; sourceTree = "<group>"; };
 		26290F322AD42579004D3B54 /* Century_Score_Manager_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Century_Score_Manager_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26290F412AD42631004D3B54 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		26290F442AD42668004D3B54 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		26290F462AD42685004D3B54 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		26290F492AD426BD004D3B54 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		26290F4B2AD426CB004D3B54 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		26290F4D2AD42787004D3B54 /* OnboardingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,11 @@
 		26290F0E2AD42578004D3B54 /* Century-Score-Manager-UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				26290F402AD4260C004D3B54 /* Views */,
+				26290F3F2AD425FB004D3B54 /* Storyboards */,
 				26290F0F2AD42578004D3B54 /* AppDelegate.swift */,
 				26290F112AD42578004D3B54 /* SceneDelegate.swift */,
-				26290F132AD42578004D3B54 /* ViewController.swift */,
-				26290F152AD42578004D3B54 /* Main.storyboard */,
 				26290F182AD42579004D3B54 /* Assets.xcassets */,
-				26290F1A2AD42579004D3B54 /* LaunchScreen.storyboard */,
 				26290F1D2AD42579004D3B54 /* Info.plist */,
 			);
 			path = "Century-Score-Manager-UIKit";
@@ -125,6 +130,42 @@
 				26290F322AD42579004D3B54 /* Century_Score_Manager_UIKitUITestsLaunchTests.swift */,
 			);
 			path = "Century-Score-Manager-UIKitUITests";
+			sourceTree = "<group>";
+		};
+		26290F3F2AD425FB004D3B54 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				26290F412AD42631004D3B54 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		26290F402AD4260C004D3B54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26290F482AD426A4004D3B54 /* Onboarding */,
+				26290F432AD42649004D3B54 /* Splash */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26290F432AD42649004D3B54 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				26290F442AD42668004D3B54 /* SplashViewController.swift */,
+				26290F462AD42685004D3B54 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		26290F482AD426A4004D3B54 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				26290F492AD426BD004D3B54 /* OnboardingViewController.swift */,
+				26290F4B2AD426CB004D3B54 /* OnboardingViewModel.swift */,
+				26290F4D2AD42787004D3B54 /* OnboardingRepository.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +272,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26290F1C2AD42579004D3B54 /* LaunchScreen.storyboard in Resources */,
 				26290F192AD42579004D3B54 /* Assets.xcassets in Resources */,
-				26290F172AD42578004D3B54 /* Main.storyboard in Resources */,
+				26290F422AD42631004D3B54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26290F142AD42578004D3B54 /* ViewController.swift in Sources */,
+				26290F4E2AD42787004D3B54 /* OnboardingRepository.swift in Sources */,
+				26290F452AD42668004D3B54 /* SplashViewController.swift in Sources */,
+				26290F4C2AD426CB004D3B54 /* OnboardingViewModel.swift in Sources */,
 				26290F102AD42578004D3B54 /* AppDelegate.swift in Sources */,
+				26290F4A2AD426BD004D3B54 /* OnboardingViewController.swift in Sources */,
 				26290F122AD42578004D3B54 /* SceneDelegate.swift in Sources */,
+				26290F472AD42685004D3B54 /* SplashViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +339,6 @@
 			targetProxy = 26290F2D2AD42579004D3B54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		26290F152AD42578004D3B54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26290F162AD42578004D3B54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		26290F1A2AD42579004D3B54 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26290F1B2AD42579004D3B54 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		26290F342AD42579004D3B54 /* Debug */ = {
