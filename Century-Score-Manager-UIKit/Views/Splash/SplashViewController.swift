@@ -20,17 +20,23 @@ class SplashViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        performAnimation()
+        startSplashAnimation()
     }
     
     // MARK: - Instance Methods
     
-    private func performAnimation() {
-        splashView.contentView.setTransform(CGAffineTransform(scaleX: 0.2, y: 0.2))
-        splashView.contentView.animate(.spring(damping: 0.3), animations: {
+    private func startSplashAnimation() {
+        let scaleDownTransform = CGAffineTransform(scaleX: 0.2, y: 0.2)
+        splashView.contentView.setTransform(scaleDownTransform)
+    
+        splashView.contentView.animate(.spring(damping: 0.5), animations: {
             self.splashView.contentView.setTransform(CGAffineTransform.identity)
         }) { _ in
-            // move to another controller
+            self.navigateToNextController()
         }
+    }
+    
+    func navigateToNextController() {
+        // Navigate to another view controller
     }
 }
