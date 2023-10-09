@@ -37,6 +37,7 @@ class SplashViewController: UIViewController {
     }
     
     func navigateToNextController() {
-        // Navigate to another view controller
+        let controller = OnboardingViewController.instantiate(from: .Main)
+        navigationController?.pushViewController(controller, animated: false)
     }
 }

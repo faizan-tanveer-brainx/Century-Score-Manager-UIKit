@@ -9,4 +9,12 @@ import Foundation
 
 class OnboardingViewModel {
     
+    // MARK: - Instance Properties
+    
+    private let respository = OnboardingRepository()
+    
+    var data: [OnboardingModel] {
+        respository.onboardings
+    }
+    
 }

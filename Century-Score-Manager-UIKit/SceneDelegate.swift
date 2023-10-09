@@ -16,7 +16,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
     
         let splashViewController = SplashViewController.instantiate(from: .Main)
+        
         let mainViewController = UINavigationController(rootViewController: splashViewController)
+        mainViewController.setNavigationBarHidden(true, animated: false)
         
         let window = UIWindow(windowScene: scene)
         self.window = window

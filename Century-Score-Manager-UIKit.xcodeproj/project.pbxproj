@@ -23,6 +23,11 @@
 		26290F532AD43490004D3B54 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F522AD43490004D3B54 /* UIViewController.swift */; };
 		26290F552AD434A3004D3B54 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F542AD434A3004D3B54 /* UIStoryboard.swift */; };
 		26290F572AD43CF1004D3B54 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F562AD43CF1004D3B54 /* UIView.swift */; };
+		26290F592AD45653004D3B54 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F582AD45653004D3B54 /* OnboardingModel.swift */; };
+		26290F5B2AD45A28004D3B54 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F5A2AD45A28004D3B54 /* OnboardingCollectionViewCell.swift */; };
+		26290F5D2AD45A68004D3B54 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F5C2AD45A68004D3B54 /* UICollectionViewCell.swift */; };
+		26290F5F2AD45AD2004D3B54 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F5E2AD45AD1004D3B54 /* UICollectionView.swift */; };
+		26290F612AD46387004D3B54 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26290F602AD46387004D3B54 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		26290F522AD43490004D3B54 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		26290F542AD434A3004D3B54 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		26290F562AD43CF1004D3B54 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		26290F582AD45653004D3B54 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		26290F5A2AD45A28004D3B54 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		26290F5C2AD45A68004D3B54 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		26290F5E2AD45AD1004D3B54 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		26290F602AD46387004D3B54 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +184,9 @@
 				26290F492AD426BD004D3B54 /* OnboardingViewController.swift */,
 				26290F4B2AD426CB004D3B54 /* OnboardingViewModel.swift */,
 				26290F4D2AD42787004D3B54 /* OnboardingRepository.swift */,
+				26290F582AD45653004D3B54 /* OnboardingModel.swift */,
+				26290F5A2AD45A28004D3B54 /* OnboardingCollectionViewCell.swift */,
+				26290F602AD46387004D3B54 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -184,6 +197,8 @@
 				26290F522AD43490004D3B54 /* UIViewController.swift */,
 				26290F542AD434A3004D3B54 /* UIStoryboard.swift */,
 				26290F562AD43CF1004D3B54 /* UIView.swift */,
+				26290F5C2AD45A68004D3B54 /* UICollectionViewCell.swift */,
+				26290F5E2AD45AD1004D3B54 /* UICollectionView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -318,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26290F5F2AD45AD2004D3B54 /* UICollectionView.swift in Sources */,
+				26290F5B2AD45A28004D3B54 /* OnboardingCollectionViewCell.swift in Sources */,
 				26290F4E2AD42787004D3B54 /* OnboardingRepository.swift in Sources */,
 				26290F502AD42BD1004D3B54 /* SplashView.swift in Sources */,
 				26290F572AD43CF1004D3B54 /* UIView.swift in Sources */,
@@ -325,8 +342,11 @@
 				26290F452AD42668004D3B54 /* SplashViewController.swift in Sources */,
 				26290F4C2AD426CB004D3B54 /* OnboardingViewModel.swift in Sources */,
 				26290F102AD42578004D3B54 /* AppDelegate.swift in Sources */,
+				26290F5D2AD45A68004D3B54 /* UICollectionViewCell.swift in Sources */,
 				26290F552AD434A3004D3B54 /* UIStoryboard.swift in Sources */,
+				26290F592AD45653004D3B54 /* OnboardingModel.swift in Sources */,
 				26290F4A2AD426BD004D3B54 /* OnboardingViewController.swift in Sources */,
+				26290F612AD46387004D3B54 /* OnboardingView.swift in Sources */,
 				26290F122AD42578004D3B54 /* SceneDelegate.swift in Sources */,
 				26290F472AD42685004D3B54 /* SplashViewModel.swift in Sources */,
 			);
