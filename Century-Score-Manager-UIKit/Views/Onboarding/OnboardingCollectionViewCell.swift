@@ -21,8 +21,8 @@ class OnboardingCollectionViewCell: UICollectionViewCell {
         if let image = UIImage(named: "splash-icon") {
             imageView.image = image
         }
-        screenTitleLabel.text = data.title
-        descriptionLabel.text = data.description
+//        screenTitleLabel.text = data.title
+//        descriptionLabel.text = data.description
     }
     
 }

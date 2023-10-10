@@ -29,11 +29,17 @@ class OnboardingViewController: UIViewController {
         
     }
     
+    @IBAction
+    func pageChanged(_ sender: UIPageControl) {
+        let pageNo = sender.currentPage
+        
+        onboardingView.collectionView.scrollToItem(at: IndexPath(item: pageNo, section: 0), at: .centeredHorizontally, animated: true)
+    }
     // MARK: - Lifecycle Methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setCollectionView()
+        //setCollectionView()
     }
     private func setCollectionView() {
         let layout = UICollectionViewFlowLayout()
@@ -45,6 +51,14 @@ class OnboardingViewController: UIViewController {
         onboardingView.collectionView.backgroundColor = .clear
         onboardingView.collectionView.collectionViewLayout = layout
       }
+}
+
+extension OnboardingViewController: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        CGSize(width: onboardingView.collectionView.frame.width, height: onboardingView.collectionView.frame.height)
+    }
+
 }
 
 // MARK: - UICollectionViewDataSource Methods
@@ -66,11 +80,10 @@ extension OnboardingViewController: UICollectionViewDataSource {
 // MARK: - UICollectionViewDelegateFlowLayout Methods
 extension OnboardingViewController: UICollectionViewDelegateFlowLayout {
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-        onboardingView.pageControl.currentPage = (0..<3).randomElement() ?? 0
+        onboardingView.pageControl.currentPage = Int(scrollView.contentOffset.x) / Int(scrollView.frame.width)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return .zero
     }
-    
 }
